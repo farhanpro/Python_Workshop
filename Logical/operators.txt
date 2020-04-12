@@ -7,7 +7,9 @@ There are 7 types of operators in  python
   =,+=,-=,*=,/=,%=,//=
  
  3. Comparision operator
+    ==, !=,>=,<=,>,<
  4. Logical operator
+ not (to give negation) , and(Both values shoud be true) , or(Atleast one value should be true)
  5. Identity operator
  6. Membership operator
  7. Bitwise operator

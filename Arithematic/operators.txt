@@ -1,6 +1,10 @@
 There are 7 types of operators in  python
- 1. Arithematic operator
+ 
+ 1. Arithematic operator :
+ perform Arithematic operations like +,-,*,/,%,**,//
+
  2. Assingment operator
+ 
  3. Comparision operator
  4. Logical operator
  5. Identity operator
