@@ -14,9 +14,9 @@ def mul(a,b):
     return print(a*b)
 
  
-a = 6
-b = 4
-c = 10
+a = int(input("Enter First Value Here :"))
+b = int(input("Enter Second Value Here :"))
+c = int(input("Enter Third Value Here :"))
 
 addition(a,b)
 addition2(a,b,c)
