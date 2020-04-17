@@ -8,10 +8,16 @@ def substraction(a,b):
     return print(a-b)
 
 def substraction2(a,b,c):
-    return print(a-b-c)
+    return print(a-b-c)     
 
 def mul(a,b):
     return print(a*b)
+
+def div(a,b):
+    if(a==0 or b==0):
+        print("Not divisible by Zero") 
+    else:
+        return print(a/b)
 
  
 a = int(input("Enter First Value Here :"))
@@ -23,3 +29,4 @@ addition2(a,b,c)
 substraction(a,b)
 substraction2(a,b,c)
 mul(a,b)
+div(a,b)
