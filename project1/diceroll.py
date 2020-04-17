@@ -41,8 +41,11 @@ if (decide == 'Y' or  decide =='y'):
 elif (decide == 'N'or decide == 'n'):
     exit() 
  
-continuee = input("You want to roll it again?(Y/N)")
-if (continuee == 'Y'or continuee == 'y'):
-    diceroll()
-elif (continuee == 'N'or continuee == 'n'):
-    exit()
+roller = 1
+while (roller == 1): 
+    continuee = input("You want to roll it again?(Y/N)")
+    if (continuee == 'Y'or continuee == 'y'):
+        diceroll()
+    elif (continuee == 'N'or continuee == 'n'):
+        roller = 2
+        exit()
