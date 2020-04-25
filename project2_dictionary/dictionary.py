@@ -1,5 +1,6 @@
 import json
 data = json.load(open("original.json")) 
+
 def dict():
     word = input("Enter the word you want to search : ")
     converted = word.casefold()
@@ -11,11 +12,8 @@ def dict():
     else:
         print("Check the word you Entered")
     
-
 dict()
-    
 i = 1
-
 while (i==1):
     decide = input("You want to search another word?(Y/N)")
     if decide == 'Y' or decide == 'y':
