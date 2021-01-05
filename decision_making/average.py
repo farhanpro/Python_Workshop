@@ -11,3 +11,4 @@ def average(marks = int(input("Enter the marks of the Student : "))):
         print("Sorry you failed")
 
 average()
+print("hie")
